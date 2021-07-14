@@ -118,9 +118,9 @@ SlashCommand: {
             ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
+  [✨ Discord Server](${
     client.config.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | [Discord](https://discord.gg/soll) | By [Rackz#0001](https://discord.gg/soll)`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
